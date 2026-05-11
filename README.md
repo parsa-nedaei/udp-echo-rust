@@ -169,6 +169,7 @@ One can explore UDP’s characteristics by testing edge cases. This will reveal 
 4. **Empty messages**
 5. **Special Characters and Unicode**
 6. **Rapid Fire Messages**
+
 Each of above, could give good understanding about how UDP works.
 
 ## 🖋️ Final Words
