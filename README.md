@@ -75,7 +75,7 @@ The UDP server (implemented in [```server.rs```](https://github.com/parsa-nedaei
 3. **Process data:** In our case, it's a simple echoing back
 4. **Send response:** Send the data back to the sender's address
 
-### 🦀 Key Rust Concepts used
+### Key Rust Concepts used
 #### ```std::net::UdpSocket```
 The main type for UDP communication in Rust. It represents a UDP socket bound to a local address. For instance, the following structure is used to bind address via ```UdpSocket```:
 ```rust
