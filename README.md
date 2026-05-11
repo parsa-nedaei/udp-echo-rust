@@ -50,7 +50,7 @@ The above structure is chosen for following reasons:
 3. Clarity
 4. Testing
 
-by creating subdirectories under ```src/``` and adding necessary modules in it, it becomes much more easier to understand to look where for what; if we look, ```utils/``` subdirectory is created as a place for adding modules ```server.rs``` and ```client.rs```. then a ```.rs``` file, with exact name of the subdirector in question, is created under ```src/```, just next to ```main.rs``` (file ```utils.rs```).
+by creating subdirectories under ```src/``` and adding necessary modules in it, it becomes much more easier to understand to look where, for what; if we look, ```utils/``` subdirectory is created as a place for adding modules ```server.rs``` and ```client.rs```. then a ```.rs``` file, with exact name of the subdirectory in question, is created under ```src/```, just next to ```main.rs``` (file ```utils.rs```).
 
 ## ⚙️ ```Cargo.toml``` Configuration
 Since ***Rust***'s standard library (```std```) offers excellent networking support out of the box, the [```Cargo.toml```](https://github.com/parsa-nedaei/udp-echo-rust/blob/main/Cargo.toml) is kept minimal as below:
